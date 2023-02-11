@@ -8,8 +8,8 @@
 <button class="btn btn-primary" @onclick="IncrementCount"> + </button>
 <button class="btn btn-primary" @onclick="DecrementCount"> - </button>
 <button class="btn btn-primary" @onclick="XCount"> x </button><br><br>
-<input id="text1" type="text" @bind="@value1" /><br>
-<input id="text2" type="text" @bind="@value2" /><br><br>
+<input id="text1" type="number" @bind="@value1" /><br>
+<input id="text2" type="number" @bind="@value2" /><br><br>
 <p role="status">計算結果: @InputText</p>
 
 @code {
