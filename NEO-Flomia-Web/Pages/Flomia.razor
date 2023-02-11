@@ -4,21 +4,28 @@
 
 <h1>Flomia</h1>
 
-<p role="status">現在のカウント数: @currentCount</p>
-
+<br>
 <button class="btn btn-primary" @onclick="IncrementCount"> + </button>
 <button class="btn btn-primary" @onclick="DecrementCount"> - </button>
+<button class="btn btn-primary" @onclick="XCount"> x </button><br><br>
+<input id="text1" type="text" @bind="@value1" /><br>
+<input id="text2" type="text" @bind="@value2" /><br><br>
+<p role="status">計算結果: @InputText</p>
 
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    int value1;
+    int value2;
+    long InputText;
+    void IncrementCount()
     {
-        currentCount++;
+        InputText = value1 + value2;
     }
-
-    private void DecrementCount()
+    void DecrementCount()
     {
-        currentCount--;
+        InputText = value1 - value2;
+    }
+    void XCount()
+    {
+        InputText = value1 * value2;
     }
 }
