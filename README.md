@@ -1,4 +1,4 @@
-# N-SCF(Web)
+# SkyColors + Flomia (n-b-cs)
 
 ### N-SCF(Web版)とは
 本ソフトウェアはデスクトップ向けアプリケーションソフトウェアとして開発されたN-SCFのブラウザ移植版となっています。<br />
@@ -11,5 +11,4 @@ LECの専門事業NEOによって開発されたランダムな色を出力す�
 
 ### 開発進捗
 **開発終了**<br />
-SkyColors(Web版) v2.9.x系に開発が引き継がれました。<br />
-
+[SkyColors v2.9.x系](https://gitlab.com/lemon73/skycolors)に開発が引き継がれました。<br />
